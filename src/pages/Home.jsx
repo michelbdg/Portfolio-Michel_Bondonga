@@ -6,6 +6,7 @@ import About from "../components/about";
 import Service from "../components/Service";
 import Portfolio from "./Portfolio";
 import File from "../components/File";
+import Contact from "./Contact";
 export default function Home(){
 
     return(
@@ -16,6 +17,7 @@ export default function Home(){
             <Service/>
             <Portfolio/>
             <File/>
+            <Contact/>
             <Footer/>
         </>
     )
